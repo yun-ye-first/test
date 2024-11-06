@@ -1,0 +1,13 @@
+.container {
+    .header {
+        font-size: 24px;
+        color: aliceblue;
+    }
+
+    .wrapper {
+        min-height: calc(100vh - 64px);
+        .content{
+            padding: 20px;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .statBox {
+        width: 100%;
+        .header {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+    }
+}
