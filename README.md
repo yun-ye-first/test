@@ -1,8 +1,13 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- `public`：通常用于存放公共资源，如 HTML 文件、图片、字体等，这些资源会被直接部署到服务器上供访问。
+- src：项目的主要源代码目录。
+  - `assets`：用于存放各种资源文件，比如样式文件（CSS 等）、图片、音频等。
+  - `components`：存放组件相关的代码，组件是可复用的 UI 部分。
+  - `layouts`：用于存放布局相关的代码，定义页面的整体结构。
+  - `pages`：存放页面级别的组件或代码，每个页面可能对应一个文件夹或文件。
+  - `router`：存放路由相关的配置和逻辑。
+  - `store`：用于存放全局状态相关的代码。
+  - `utils`：存放工具函数或公共方法等，方便在项目的不同地方复用。
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- `main.jsx` 项目的入口文件，用于初始化应用、挂载根组件等操作
